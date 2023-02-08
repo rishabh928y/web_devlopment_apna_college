@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_GRID_2</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        .container {
+            display: grid;
+            grid-gap: 15px;
+            height: 100vh;
+            grid-template-columns: 1fr 5fr;
+        }
+
+        .boxes {
+            background-color: #f9d84a;
+        }
+
+        .sub-box {
+            display: grid;
+            grid-gap: 15px;
+            grid-template-rows: 1fr 4fr 1fr;
+        }
+ 
+        .box_1 {
+            height: 100%;
+        }  
+
+        .box_3 {
+            background-color: #ffffff;
+            display: grid;
+            grid-gap: 15px;
+            grid-template-columns: 5fr 1fr;
+        }
+        .inbox {
+            background-color: #f9d84a;
+        }
+ 
+        h1 {
+            font-size: large;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes box_1"><h1>Nav</h1></div>
+        <div class="sub-box">
+            <div class="boxes box_2"><h1>Header</h1></div>
+            <div class="boxes box_3">
+                <div class="inbox Article"><h1>Article</h1></div>
+                <div class="inbox Ads"><h1>Ads</h1></div>
+            </div>
+            <div class="boxes box_4"><h1>Footer</h1></div>
+        </div>
+    </div>
+</body>
+</html>

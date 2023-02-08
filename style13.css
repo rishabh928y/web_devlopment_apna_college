@@ -1,0 +1,50 @@
+*{ 
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+}
+.container{
+    display: flex;
+    margin: 15px;
+    height: 100vh;
+}
+
+.nav{
+    flex-grow: 1;
+    background-color: rgb(250, 214, 161);
+}
+
+p{
+    background-color: indigo;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+.header, .footer{
+    padding: 12px;
+    flex-grow: 1;
+    background-color: indigo;
+}
+.article{
+    padding: 12px;
+    background-color: rgb(191, 137, 230);
+    flex-grow: 3;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+li:focus,
+li:hover{
+    background-color: rgb(245, 245, 245);
+}

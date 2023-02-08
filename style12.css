@@ -1,0 +1,214 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("image/background5.jpg") no-repeat center center/cover;
+    
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#container1,
+#container2,
+#container3{
+    flex-direction: column;
+    border: 2px solid black;
+    width: 447px;
+    margin: 10px;
+    height: 550px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+    text-shadow: 1px 1px grey;
+    background-color: rgb(255, 255, 255);
+} 
+
+#container1:hover,
+#container2:hover,
+#container3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+img{
+    width: 323px;
+    margin: 10px;
+}
+
+#container1 p {
+    margin: 20px;
+}
+
+#container2 p{
+    position: relative;
+    top: 80px;
+    margin: 20px;
+}
+
+#container3 p{
+    position: relative;
+    top: 31px;
+    margin: 20px;
+}
+
+#container2 h1{
+    position: relative;
+    top: 83px;
+}
+
+#container3 h1{
+    position: relative;
+    top: 37px;
+}
+
+#container2nd {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container4,
+#container5, 
+#container6 {
+    flex-direction: column;
+    border: 2px solid black;
+    width: 447px;
+    margin: 10px;
+    height: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px black;
+    text-shadow: 1px 1px grey;
+    background-color: white;
+}
+
+#container4:hover,
+#container5:hover, 
+#container6:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#container4 img{
+   width: 268px;
+}
+
+#container4 p{
+    position: relative;
+    top: 27px;
+    margin: 20px;
+}
+
+#container5 p{
+    position: relative;
+    top: 45px;
+    margin: 20px;
+}
+
+#container6 p{
+    position: relative;
+    top: 58px;
+    margin: 20px;
+}
+
+#container4 h1{
+    position: relative;
+    top: 27px;
+}
+
+#container5 h1{
+    position: relative;
+    top: 45px;
+}
+
+#container6 h1{
+    position: relative;
+    top: 58px;
+}
+
+#heading{
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 3px grey;
+}
+
+#buttonvege{
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#buttonfruits{
+    position: relative;
+    top: 81px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#buttonpulses{
+    position: relative;
+    top: 31px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;    
+}
+
+#buttonnuts{
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#buttonshakes{
+    position: relative;
+    top: 43px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#buttonicecreams{
+    position: relative;
+    top: 58px;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#buttonicecreams:hover,
+#buttonshakes:hover,
+#buttonnuts:hover,
+#buttonpulses:hover,
+#buttonfruits:hover,
+#buttonvege:hover
+{
+    color: rgb(2, 227, 2);
+}
